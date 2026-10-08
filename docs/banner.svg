@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-label="CAS Dos — terminal SSH multiplataforma com IA por OAuth, uma camada MS-DOS de verdade e um explorador de arquivos integrado">
+  <title>CAS Dos</title>
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B0F17"/>
+      <stop offset="55%" stop-color="#0E1420"/>
+      <stop offset="100%" stop-color="#0A1A1C"/>
+    </linearGradient>
+    <linearGradient id="brilho" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#2DD4BF" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="titulo" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="70%" stop-color="#A7F3D0"/>
+      <stop offset="100%" stop-color="#5EEAD4"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grade" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1E293B" stroke-width=".7" stroke-opacity=".55"/>
+    </pattern>
+    <clipPath id="corte">
+      <rect x="0" y="0" width="1280" height="440" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#corte)">
+    <rect width="1280" height="440" fill="url(#fundo)"/>
+    <rect width="1280" height="440" fill="url(#grade)"/>
+    <circle cx="1010" cy="150" r="330" fill="url(#halo)"/>
+    <rect x="0" y="0" width="1280" height="2" fill="url(#brilho)"/>
+
+    <!-- marca -->
+    <g transform="translate(72,74)">
+      <rect x="0" y="0" width="76" height="76" rx="16" fill="#0F172A" stroke="#1E3A34" stroke-width="1.5"/>
+      <rect x="0" y="0" width="76" height="76" rx="16" fill="#2DD4BF" fill-opacity=".07"/>
+      <text x="17" y="49" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="27" font-weight="700" fill="#5EEAD4">&gt;_</text>
+      <rect x="54" y="30" width="9" height="20" rx="1.5" fill="#5EEAD4" fill-opacity=".85"/>
+    </g>
+
+    <!-- título -->
+    <text x="176" y="118" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="-1.5" fill="url(#titulo)">CAS Dos</text>
+    <text x="176" y="152" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="3.4" fill="#64748B">TERMINAL · SSH · SFTP · MS-DOS · IA</text>
+
+    <!-- linha divisória -->
+    <rect x="72" y="184" width="1136" height="1" fill="#1E293B"/>
+
+    <!-- chamada -->
+    <text x="72" y="228" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="25" font-weight="600" fill="#E2E8F0">Um terminal SSH da categoria do Termius, com uma IA que roda na sua assinatura —</text>
+    <text x="72" y="262" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="25" font-weight="600" fill="#E2E8F0">
+      <tspan fill="#5EEAD4">IA por OAuth, sem precisar de API key</tspan><tspan fill="#E2E8F0">, sem cadastro, sem telemetria. ~6 MB.</tspan>
+    </text>
+
+    <!-- pílulas de recursos -->
+    <g font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="600">
+      <g transform="translate(72,300)">
+        <rect width="305" height="42" rx="21" fill="#0F172A" stroke="#134E4A" stroke-width="1.2"/>
+        <circle cx="24" cy="21" r="4.5" fill="#2DD4BF"/>
+        <text x="42" y="26" fill="#CBD5E1">IA por OAuth · API key opcional</text>
+      </g>
+      <g transform="translate(393,300)">
+        <rect width="273" height="42" rx="21" fill="#0F172A" stroke="#3F3A1F" stroke-width="1.2"/>
+        <circle cx="24" cy="21" r="4.5" fill="#E5C07B"/>
+        <text x="42" y="26" fill="#CBD5E1">MS-DOS real, em qualquer SO</text>
+      </g>
+      <g transform="translate(682,300)">
+        <rect width="226" height="42" rx="21" fill="#0F172A" stroke="#1E3A5F" stroke-width="1.2"/>
+        <circle cx="24" cy="21" r="4.5" fill="#61AFEF"/>
+        <text x="42" y="26" fill="#CBD5E1">Terminal + explorador</text>
+      </g>
+      <g transform="translate(924,300)">
+        <rect width="226" height="42" rx="21" fill="#0F172A" stroke="#3B2B4F" stroke-width="1.2"/>
+        <circle cx="24" cy="21" r="4.5" fill="#C678DD"/>
+        <text x="42" y="26" fill="#CBD5E1">Núcleo em Rust, ~6 MB</text>
+      </g>
+    </g>
+
+    <!-- prompt inferior -->
+    <g transform="translate(72,382)">
+      <rect x="0" y="0" width="1136" height="34" rx="8" fill="#070A10" stroke="#1E293B" stroke-width="1"/>
+      <text x="16" y="23" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#4B5563">
+        <tspan fill="#5EEAD4">C:\&gt;</tspan><tspan fill="#94A3B8" xml:space="preserve"> DIR /W  </tspan><tspan fill="#334155">|</tspan><tspan fill="#94A3B8" xml:space="preserve">  ssh deploy@edge-01  </tspan><tspan fill="#334155">|</tspan><tspan fill="#94A3B8" xml:space="preserve">  “encontre todo log acima de 500 MB e arquive”</tspan>
+      </text>
+      <rect x="1108" y="10" width="8" height="15" rx="1.5" fill="#5EEAD4" fill-opacity=".8"/>
+    </g>
+
+    <rect x="0" y="438" width="1280" height="2" fill="url(#brilho)"/>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+CAS Dos
+Copyright 2026 CAS Dos
+
+--------------------------------------------------------------------------
+Third-party components
+--------------------------------------------------------------------------
+
+The CAS Dos binaries bundle or link against the following open-source
+projects. Each remains under its own license; see the respective project
+for details.
+
+  Tauri 2 .................. MIT / Apache-2.0 .... https://tauri.app
+  React 18 ................. MIT ................. https://react.dev
+  xterm.js (@xterm/xterm) .. MIT ................. https://xtermjs.org
+  zustand .................. MIT ................. https://github.com/pmndrs/zustand
+  ssh2 (libssh2 bindings) .. MIT / Apache-2.0 .... https://crates.io/crates/ssh2
+  libssh2 .................. BSD-3-Clause ........ https://libssh2.org
+  OpenSSL (macOS builds) ... Apache-2.0 .......... https://www.openssl.org
+  portable-pty ............. MIT ................. https://crates.io/crates/portable-pty
+  aes-gcm / sha2 ........... MIT / Apache-2.0 .... https://github.com/RustCrypto
+  serde / serde_json ....... MIT / Apache-2.0 .... https://serde.rs
+  ureq ..................... MIT / Apache-2.0 .... https://crates.io/crates/ureq
+  chrono, dirs, regex,
+  sysinfo, base64 .......... MIT / Apache-2.0 .... https://crates.io
+
+"MS-DOS" is a trademark of Microsoft Corporation. CAS Dos is an independent
+re-implementation of the classic command set and is not affiliated with,
+endorsed by, or derived from any Microsoft product or source code.
+"Termius" is a trademark of Termius Corporation; it is referenced only to
+describe a category of software. CAS Dos contains no Termius code.
