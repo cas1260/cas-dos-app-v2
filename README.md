@@ -32,8 +32,24 @@ Tudo é em **Português do Brasil** — a interface e as mensagens. Isso é uma 
 
 ---
 
+## 📸 Capturas de tela
+
+Telas reais do aplicativo na versão 1.0.0, rodando no Windows 11.
+
+| | |
+|:---:|:---:|
+| ![Terminal CAS-DOS executando VER, DIR e um pipeline com FIND](docs/prints/cas-dos-msdos.png) | ![Tela dividida com o terminal à esquerda e o explorador de arquivos à direita](docs/prints/cas-dos-dividido.png) |
+| **Terminal CAS-DOS** — `VER`, `DIR` e um pipeline com `FIND` | **Tela dividida** — o explorador acompanha a pasta do terminal |
+| ![Terminal, explorador de arquivos e chat de IA na mesma janela](docs/prints/cas-dos-ambos.png) | ![Terminal local com PowerShell listando arquivos](docs/prints/cas-dos-terminal-local.png) |
+| **Terminal + explorador + chat de IA** na mesma janela | **Terminal local** — PowerShell em um PTY de verdade |
+| ![Painel de Inteligência Artificial com login OAuth, API própria e CLIs detectadas](docs/prints/cas-dos-ia.png) | ![Tela de hosts com a barra de conexão rápida](docs/prints/cas-dos-hosts.png) |
+| **Inteligência Artificial** — OAuth do ChatGPT, API própria e CLIs detectadas | **Hosts** — cadastro, grupos e conexão rápida |
+
+---
+
 ## Índice
 
+- [Capturas de tela](#-capturas-de-tela)
 - [Instalação](#-instalação)
 - [A parte da IA (a mais interessante)](#-a-parte-da-ia-a-mais-interessante)
 - [A camada MS-DOS](#-a-camada-ms-dos)
@@ -207,22 +223,7 @@ As três operações realmente destrutivas que *são* permitidas (`DEL *`, `RD /
 
 ## 🗂️ A tela dividida
 
-```
-┌───────────┬──────────────────────────────────────────────────────────────┐
-│           │  ▸ local   ▸ dos   ▸ ssh: edge-01   ▸ ia            [ + ]    │
-│  Hosts    ├────────────────────────────────┬─────────────────────────────┤
-│  Chaves   │                                │  📁 Explorador              │
-│  Snippets │   user@edge-01:/var/log$ _     │  /var/log                   │
-│  IA       │                                │  ├── nginx/                 │
-│  Config.  │                                │  ├── syslog        4,2 MB   │
-│           │                                │  └── auth.log      812 KB   │
-│           │                                ├──── arraste p/ ajustar ─────┤
-│           │                                │  🤖 Chat com a IA           │
-│           │                                │  "arquive todo log          │
-│           │                                │   acima de 500 MB"          │
-└───────────┴────────────────────────────────┴─────────────────────────────┘
-             ↑ divisor arrastável (15%–85%)
-```
+![Terminal à esquerda; à direita, o explorador de arquivos em cima e o chat de IA embaixo](docs/prints/cas-dos-ambos.png)
 
 Um botão divide a área de trabalho. O painel da direita assume um de quatro estados: **nada**, **explorador**, **chat com a IA** ou **ambos** (empilhados, com um segundo divisor arrastável próprio).
 
