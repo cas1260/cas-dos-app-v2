@@ -50,7 +50,7 @@
     <rect x="72" y="184" width="1136" height="1" fill="#1E293B"/>
 
     <!-- chamada -->
-    <text x="72" y="228" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="25" font-weight="600" fill="#E2E8F0">Um terminal SSH da categoria do Termius, com uma IA que roda na sua assinatura —</text>
+    <text x="72" y="228" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="25" font-weight="600" fill="#E2E8F0">Um terminal SSH completo, com uma IA que roda na sua assinatura —</text>
     <text x="72" y="262" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="25" font-weight="600" fill="#E2E8F0">
       <tspan fill="#5EEAD4">IA por OAuth, sem precisar de API key</tspan><tspan fill="#E2E8F0">, sem cadastro, sem telemetria. ~6 MB.</tspan>
     </text>

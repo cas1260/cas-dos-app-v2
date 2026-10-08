@@ -2,7 +2,7 @@
 
 ![CAS Dos](docs/banner.svg)
 
-**Um terminal SSH da categoria do Termius, com uma IA que roda na sua assinatura por padrão — ou na sua própria API key, se preferir. Sem cadastro, sem telemetria.**
+**Um terminal SSH completo, com uma IA que roda na sua assinatura por padrão — ou na sua própria API key, se preferir. Sem cadastro, sem telemetria.**
 Mais um interpretador MS-DOS de verdade que funciona em qualquer sistema operacional, e um explorador de arquivos encaixado ao lado do seu shell.
 
 [![Plataformas](https://img.shields.io/badge/plataformas-Windows%20%7C%20macOS-lightgrey.svg)](#-instalação)
@@ -18,7 +18,7 @@ Mais um interpretador MS-DOS de verdade que funciona em qualquer sistema operaci
 
 ## O que é isto
 
-O CAS Dos é um cliente SSH de desktop no espírito do Termius, construído sobre um **núcleo em Rust (Tauri 2)** com interface em **React + TypeScript**. Ele cabe em um **instalador de 2,32 MB** e um **executável portátil de 6,15 MB** — sem Chromium embutido, sem runtime Node, sem serviço rodando em segundo plano.
+O CAS Dos é um cliente SSH de desktop, construído sobre um **núcleo em Rust (Tauri 2)** com interface em **React + TypeScript**. Ele cabe em um **instalador de 2,32 MB** e um **executável portátil de 6,15 MB** — sem Chromium embutido, sem runtime Node, sem serviço rodando em segundo plano.
 
 Só que "mais um cliente SSH" não é a graça. Três coisas mudam o jogo:
 
@@ -301,9 +301,6 @@ Na pasta de dados de aplicativo do seu sistema, cifrados. Nunca em um servidor. 
 **O código-fonte está disponível?**
 Não. Este repositório distribui apenas os binários do CAS Dos.
 
-**Isto é um fork do Termius?**
-Não. Não contém nenhuma linha de código do Termius. O nome é citado apenas para descrever a categoria de software.
-
 **Tem alguma ligação com a Microsoft ou com a OpenAI?**
 Não. "MS-DOS" é marca da Microsoft; este é uma reimplementação independente do conjunto clássico de comandos, escrita do zero e sem acesso a código-fonte da Microsoft. A integração com a OpenAI usa um cliente OAuth público e está sujeita aos Termos de Serviço da OpenAI.
 
@@ -313,7 +310,7 @@ Não. "MS-DOS" é marca da Microsoft; este é uma reimplementação independente
 
 Este repositório distribui apenas os binários do CAS Dos; o código-fonte não é publicado. O software é fornecido como está, sem garantia de qualquer tipo.
 
-Os componentes de terceiros embutidos nos binários permanecem sob as licenças deles — veja o [NOTICE](NOTICE). "MS-DOS" é marca da Microsoft Corporation e "Termius" da Termius Corporation; ambas são citadas apenas de forma descritiva. Este projeto é independente e não tem vínculo com a Microsoft, a OpenAI, a Termius ou qualquer outra empresa aqui mencionada.
+Os componentes de terceiros embutidos nos binários permanecem sob as licenças deles — veja o [NOTICE](NOTICE). "MS-DOS" é marca da Microsoft Corporation, citada apenas de forma descritiva. Este projeto é independente e não tem vínculo com a Microsoft, a OpenAI ou qualquer outra empresa aqui mencionada.
 
 <div align="center">
 
